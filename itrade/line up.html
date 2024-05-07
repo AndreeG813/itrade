@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-ua-cumpitable" content="IE=edge">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+
+    <title>I_TRADE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <h2 class="logo">I-TRADE</h2>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button">
+                <ion-icon name="search"></ion-icon>
+            </button>
+        </div>
+        <nav class="navigation">
+            <a href="ITRADE.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="Account.html">Account</a>
+            <a href="line up.html">Line Up</a> 
+            <button class="btnlogin-popup">Login</button>                     
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div> 
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div> 
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an accopunt?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registretion</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div> 
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div> 
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div> 
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an accopunt?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <main class="table">
+        <section class="table_header">
+            <h1>Custormer's orders</h1>
+        </section>
+        <section class="table_boby">
+            <table>
+                <thead>
+                    <tr>
+                        <th> id </th>
+                        <th> Customer </th>
+                        <th> Location </th>
+                        <th> Order date </th>
+                        <th> Status </th>
+                        <th> Amount </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> <br/></td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-delivered">Delivered</p>
+                        </td>
+                        <td> <strong> $128.90 </strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-pending">Pending</p>
+                        </td>
+                        <td> <strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-cancelled">Cancelled</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-delivered">Delivered</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-shipped">Shipped</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-shipped">Shipped</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td class="fod"> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-delivered">Delivered</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-cancelled">Cancelled</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-cancelled">Cancelled</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                     <tr>
+                        <td>10</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-shipped">Shipped</p>
+                        </td>
+                        <td><strong>$128.90</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>11</td>
+                        <td> <img src="img/yves..." alt=""> <p>Andree Yves</p> </td>
+                        <td> Kigali </td>
+                        <td> 28 March 2024 </td>
+                        <td>
+                            <p class="status-pending">Pending</p>
+                        </td>
+                        <td> <strong>$128.90</strong></td>
+                    </tr>
+                </tbody> 
+            </table>
+        </section>
+    </main>
+
+    <footer id="myFooter">
+        <p>&copy; 2024 Advertising Company. All rights reserved.</p>
+    </footer>
+
+   
+    <script src="css/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
